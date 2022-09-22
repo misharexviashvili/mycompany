@@ -29,7 +29,7 @@ header {
 
 nav {
   margin-top: 56px;
-  margin-left: 29%;
+  margin-left: 40%;
 }
 
 .topnav a {
@@ -115,4 +115,28 @@ main {
 
 .mycompany {
   color: #fcac45;
+}
+
+.wrapper {
+  width: 76%;
+  margin: 0 auto;
+}
+
+main .main__about{
+  display: flex;
+  padding: 100px 0 100px 0;
+}
+.laptop-image{
+  height: 500px;
+  width: 550px;
+}
+
+.about__right{
+  margin-left: 175px;
+}
+
+.about__right h2{
+display: inline-block;
+border-bottom: 3px solid #fcac45;
+font-size: 35px;
 }
