@@ -116,27 +116,108 @@ main {
 .mycompany {
   color: #fcac45;
 }
+.greeting-text {
+  color: rgb(241, 239, 235);
+  font-weight: bold;
+}
 
 .wrapper {
   width: 76%;
   margin: 0 auto;
 }
 
-main .main__about{
+main .main__about {
   display: flex;
   padding: 100px 0 100px 0;
 }
-.laptop-image{
+.laptop-image {
   height: 500px;
   width: 550px;
 }
 
-.about__right{
+.about__right {
   margin-left: 175px;
 }
 
-.about__right h2{
-display: inline-block;
-border-bottom: 3px solid #fcac45;
-font-size: 35px;
+.about__right h2 {
+  display: inline-block;
+  border-bottom: 3px solid #fcac45;
+  padding-bottom: 20px;
+  font-size: 35px;
+}
+
+.about__right p {
+  margin: 30px 0 50px 0;
+  color: #6c6c6c;
+}
+
+.about__right li {
+  background: url(icons8-amazon-alexa-logo-12.png) 0px no-repeat;
+  padding-left: 25px;
+}
+
+.about__right span {
+  font-weight: bold;
+  font-size: large;
+  color: #fcac45;
+}
+@media screen and (max-width: 1200px) {
+  .about__left {
+    display: none;
+  }
+}
+.about-us-list {
+  padding: 10px 10px;
+}
+
+.main__team {
+  color: #fff;
+  background: #000;
+  text-align: center;
+  padding: 100px 0 165px 0;
+}
+
+.main__team h2 {
+  font-size: 44px;
+  padding-bottom: 30px;
+}
+.name {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.position {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.about__position {
+  font-size: 14px;
+}
+.line {
+  width: 150px;
+  height: 3px;
+  background: #fcac45;
+  position: relative;
+  left: 45%;
+  margin-bottom: 85px;
+}
+.card {
+  margin: 0 40px;
+}
+
+.photo {
+  background: #999999;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+.team__cards {
+  display: flex;
+}
+
+@media screen and (max-width: 900px) {
+  .team__cards {
+    flex-direction: column;
+  }
 }
