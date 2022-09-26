@@ -165,6 +165,9 @@ main .main__about {
   .about__left {
     display: none;
   }
+  .about__right {
+    margin-left: 50px;
+  }
 }
 .about-us-list {
   padding: 10px 10px;
@@ -228,7 +231,6 @@ main .main__about {
   border-radius: 40px;
 }
 
-
 .services__cards {
   text-align: center;
   display: grid;
@@ -249,7 +251,6 @@ main .main__about {
 .services__card h4 {
   margin: 20px 0 15px 0;
 }
-
 
 @media screen and (max-width: 900px) {
   .services__cards {
