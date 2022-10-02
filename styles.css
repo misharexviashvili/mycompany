@@ -87,7 +87,10 @@ main {
   color: rgb(241, 239, 235);
   font-weight: bold;
 }
-
+.flag {
+  width: 16px;
+  height: 14px;
+}
 .wrapper {
   width: 76%;
   margin: 0 auto;
@@ -166,6 +169,11 @@ main .main__about {
   border-radius: 50%;
   margin: 20px auto;
 }
+.team-photo{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+}
 
 .team__cards {
   display: flex;
@@ -222,7 +230,6 @@ main .main__about {
   padding-bottom: 160px;
 }
 .main__testimonials .testimonial {
-  text-transform: uppercase;
   margin-bottom: 50px;
 }
 
